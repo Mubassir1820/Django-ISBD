@@ -12,5 +12,5 @@ def categorize_temperature(temp):
     else:
         print("Hot")
 
-temp = int(input("Enter the temperature: "))
+temp = float(input("Enter the temperature: "))
 categorize_temperature(temp)

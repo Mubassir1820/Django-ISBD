@@ -7,7 +7,7 @@ def analyze_ratings(ratings):
     ratings = [numberRatings]
 
     for i in range(numberRatings):
-        rating = int(input("Enter the rating between 1 to 5: "))
+        rating = float(input("Enter the rating between 1 to 5: "))
         if rating < 1 or rating > 5:
             print("Enter a valid rating(1-5)")
             break
